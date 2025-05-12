@@ -18,7 +18,7 @@ const port = process.env.PORT || 3000;
 // common middlewares
 app.use(express_1.default.json());
 app.use((0, cors_1.default)({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173","https://todo-frontend-ma6q.vercel.app","https://todo-frontend-ma6q-git-main-yogesh-palves-projects.vercel.app"],
     credentials: true,
 }));
 app.use((0, morgan_1.default)("dev"));
